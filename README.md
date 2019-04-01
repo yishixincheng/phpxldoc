@@ -4,7 +4,7 @@
 * 基础（一）
 
   * [介绍](1/jieshao.md)
-  * 环境依赖与web容器安装
+  * [环境依赖与web容器安装](1/devinstall.md)
   * 安装Xl框架
   * 初始化配置
   * 输出 hellword
