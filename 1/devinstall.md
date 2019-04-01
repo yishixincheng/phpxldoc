@@ -68,4 +68,4 @@ f. 重新nginx服务器,命令行输入以下代码
    /etc/init.d/nginx restart
 ```
 
-完成
+完成以上步骤，即为xl框架搭建好所需要的web环境。
