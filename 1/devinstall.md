@@ -14,7 +14,7 @@ Linux操作系统下，安装web服务器流程如下
 一键安装web集成环境[lnmp](https://lnmp.org/install.html)。
 安装完成后安装相关[扩展](https://lnmp.org/faq/addons.html)。
 
-推荐安装Memcached，Redis,imageMagick
+推荐安装Memcached，Redis,imageMagick扩展
 
 
 ### 安装nginx后进行配置
