@@ -5,11 +5,11 @@
 
   * [介绍](1/jieshao.md)
   * [环境依赖与web容器安装](1/devinstall.md)
-  * 安装Xl框架
-  * 初始化配置
-  * 输出 hellword
-  * 目录结构
-  * 总结
+  * [安装Xl框架](1/install.md)
+  * [初始化配置](1/init.md)
+  * [输出 hello world](1/helloworld.md)
+  * [目录结构](1/tree.md)
+  * [总结](1/zongjie.md)
   
 * MVC分层结构 （二）
   
