@@ -49,8 +49,26 @@ server
         ...
      }
 
+```
+d. 打开配置文件。/usr/local/nginx/conf/fastcgi.conf
+
+```text
+
+fastcgi_param  SCRIPT_FILENAME    $document_root$fastcgi_script_name;
+fastcgi_param  QUERY_STRING       $query_string;
+fastcgi_param  REQUEST_METHOD     $request_method;
+fastcgi_param  CONTENT_TYPE       $content_type;
+fastcgi_param  CONTENT_LENGTH     $content_length;
+
+...
+
+# PHP only, required if PHP was built with --enable-force-cgi-redirect
+fastcgi_param  REDIRECT_STATUS    200;
+fastcgi_param PHP_ADMIN_VALUE "open_basedir=/home/wwwroot:/tmp/:/proc/"; #如果我们把phpxl安装在/home/wwwroot目录下，则加上/home/wwwroot:，即php可以访问的目录
+                                                                          
 
 ```
+
 
 e. 打开php配置文件
 ```text
