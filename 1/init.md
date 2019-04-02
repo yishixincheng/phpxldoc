@@ -41,7 +41,7 @@ return [
     ],
     'driver'=>'mysql', //mysql,sqlsrv
     'database'=>'defaultdb', //默认的数据库名
-    'tablepre'=>'xl_',       //数据库浅醉
+    'tablepre'=>'xl_',       //数据库前缀
     'engine'=>'InnoDB', //InnoDB,MyISAM,MEMORY
     'charset'=>'utf8',
     'type'=>'pdo',
